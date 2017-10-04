@@ -69,7 +69,7 @@ var result = circuitBreaker.execute(
 	"I am the fallback value."
 );
 
-// With NO FALLBACKB value - errors will propagate.
+// With NO FALLBACK value - errors will propagate.
 var result = circuitBreaker.execute(
 	function() {
 		return( "Hello from a closure." );
